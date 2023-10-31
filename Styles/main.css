@@ -8,3 +8,42 @@ html {
   background-color: rgba(30, 30, 202, 0);
   margin: main;
 }
+
+body {
+  background-image: url("/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/images/DreamMachineBackdrop.png");
+  width: 100%;
+  height: 100%;
+  background-position: center, center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+body {
+  background-image: url("/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/Images/buttoncontainers.png");
+}
+
+/* Button Styles */
+
+.btn-dreammachine {
+  color: rgb(255 255 255);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-showcase {
+  color: rgb(255 255 255);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-submit {
+  color: rgb(255 255 255);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-whatami {
+  color: rgb(255 255 255);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
