@@ -21,6 +21,10 @@ html {
   border-color: rgba(0, 0, 0, 0);
 }
 
+.btn-dreammachine:hover {
+  background-color: rgba(85, 231, 45, 0.381);
+}
+
 .btn-showcase {
   color: rgb(255 255 255);
   background-color: rgba(0, 0, 0, 0);
@@ -37,5 +41,7 @@ html {
   color: rgb(255 255 255);
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  position: bottom;
+}
+
+.containers {
 }
