@@ -8,12 +8,24 @@ html {
   background-repeat: none;
 }
 
+/* html {
+  background-image: url("/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/Images/buttoncontainers.png");
+  background: rgba(0, 0, 0, 0);
+} */
+
 /* </style > main {
   height: 100%;
   width: 100%;
   background-color: rgba(30, 30, 202, 0);
   margin: main;
 } */
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: center, center;
+  size: cover;
+}
 
 .btn-dreammachine {
   color: rgb(255 255 255);
@@ -31,10 +43,18 @@ html {
   border-color: rgba(0, 0, 0, 0);
 }
 
+.btn-showcase:hover {
+  background-color: rgba(85, 231, 45, 0.381);
+}
+
 .btn-submit {
   color: rgb(255 255 255);
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
+}
+
+.btn-submit:hover {
+  background-color: rgba(85, 231, 45, 0.381);
 }
 
 .btn-whatami {
@@ -43,5 +63,6 @@ html {
   border-color: rgba(0, 0, 0, 0);
 }
 
-.containers {
+.btn-whatami:hover {
+  background-color: rgba(85, 231, 45, 0.381);
 }
