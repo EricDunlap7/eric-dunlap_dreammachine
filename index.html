@@ -5,54 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DreamMachine</title>
     <link rel="stylesheet" href="./Styles/main.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url("/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/Images/buttoncontainers.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+        background-color: rgba(0, 0, 0, 0);
+      }
+  
+      /* .button-container {
+        display: flex;
+        align-self: flex-start;
+        margin-top: 10px;
+      }
+  
+      .button {
+        margin: 10px;
+        padding: 20px 40px;
+        background-color:rgba(0, 0, 0, 0);
+        color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 30px;
+      } */
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="button-container">
+      <button class="btn btn-submit">Submit</button>
+      <button class="btn btn-dreammachine">DreamMachine</button>
+      <button class="btn btn-showcase">Showcase</button>
+      <!-- <button class="btn btn-whatami">What am I?</button> -->
+    </div>
+  </head>
+  <body>
+    <!-- <div class="container-dreammachine">
       <img
-        src="/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/Images/buttoncontainers.png"
+        src="/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/Images/container-dreammachine.png"
         alt=""
       />
-    </div>
-    <main>
+    </div> -->
+
+
+      <section class="containers">
+        <div class="container-submit"></div>
+
+        <div class="container-dreammachine"></div>
+
+        <div class="container-showcase"></div>
+
+        <div class="container-whatami"></div>
+      </section>
+
       <!-- Header -->
-      <section class="example">
+      <!-- <section class="example">
         <button class="btn btn-submit">Submit</button>
         <button class="btn btn-dreammachine">DreamMachine</button>
         <button class="btn btn-showcase">Showcase</button>
         <button class="btn btn-whatami">What am I?</button>
-      </section>
-
-      <!-- <section class="headerbuttons">
-        <button class="btn btn-submit">
-          <img
-            src="/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/images/submit-btn-black.png"
-            alt=""
-          />
-        </button>
-        <button class="btn btn-dreammachine">
-          <img
-            src="/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/images/dreammachine-btn-black.png"
-            alt=""
-          />
-        </button>
-        <button class="btn btn-showcase">
-          <img
-            src="/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/images/showcase-btn-black.png"
-            alt=""
-          />
-        </button>
-        <button class="btn btn-whatami">
-          <img
-            src="/Users/ericdunlap/Documents/GitHub/eric-dunlap_dreammachine/images/what-am-i-btn-black.png"
-            alt=""
-          />
-        </button>
       </section> -->
-
-      <!-- Generate Button  -->
-      <!-- <div>
-        <button class="btn btn-eye">eye</button>
-      </div> -->
     </main>
   </body>
 </html>
